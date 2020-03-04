@@ -1,0 +1,6 @@
+zdanie = input("Wpowadz zdanie")
+zdanie = zdanie.replace(" ","")
+print(zdanie.lower())
+print(zdanie[::-1])
+print(zdanie[::-1] == zdanie)
+print(zdanie[::-1].lower() == zdanie.lower())
