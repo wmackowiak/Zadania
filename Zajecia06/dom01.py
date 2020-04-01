@@ -34,3 +34,6 @@ for litera in slowo:
         print("Tak")
     else:
         print("Nie")
+
+
+print("***************")
