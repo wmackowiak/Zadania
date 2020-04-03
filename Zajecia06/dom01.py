@@ -19,21 +19,33 @@ elif kategoria == 'zwierzeta':
         content = fopen.read()
         print(content)
 
-print("Wylosowano słowo: ")
+print("")
+print("Wylosowane słowo: ")
 content = content.split()
 slowo = random.choice(content)
-print(slowo)
 
-liczba_znakow = len(slowo)
-print("_ " * liczba_znakow)
+print(slowo)
+lista_liter = list(slowo.lower())
+print(lista_liter)
+
+for i in range(len(lista_liter)):
+    lista_liter = '_'
+    print(lista_liter, end=" ")
+print("")
 
 zgadnij = input("Twoja litera: ")
 
-for litera in slowo:
-    if zgadnij == litera:
-        print("Tak")
+for i in range(len(lista_liter)):
+    if lista_liter[i] == str(zgadnij):
+        lista_liter[i] = str(zgadnij)
+        print(lista_liter)
     else:
-        print("Nie")
+        print(zgadnij)
 
 
-print("***************")
+
+
+
+
+
+

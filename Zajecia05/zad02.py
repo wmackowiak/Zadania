@@ -14,9 +14,16 @@ def add_books_to_library():
 
 def show_book():
     nr = int(intut("Podaj numer książki do wyświetlenia:"))
-    print(f"Twoja książka to {library[index]}")
+    index = nr - 1
+    if index >= len(books):
+        print("Nie masz tyle książek")
+    else:
+        print(f"Twoja książka to {books[indeks]}")
 
-counter = int(input("Ile ksążek chcesz dodać?"))
-library = add_books_to_library()
-print(library)
-show_book()
+
+# counter = int(input("Ile ksążek chcesz dodać?"))
+# library = add_books_to_library(counter)
+# print(library)
+# show_book(library)
+
+print(show_book.__doc__)

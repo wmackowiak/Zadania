@@ -7,7 +7,7 @@ Szybko, zęby myj i ręce"""
 #     szybko : 5
 #     zbudź : 1
 
-print("***")
+# print("***")
 # txt = 'Szybko, zbudź się, szybko, wstawaj Szybko, szybko, stygnie kawa Szybko, zęby myj i ręce'
 # new_txt = txt.replace(",","").lower().split(" ")
 # print(new_txt)
