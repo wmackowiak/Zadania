@@ -1,0 +1,8 @@
+Świnia
+Królik
+Owca
+Krowa
+Pies
+Kot
+Wilk
+Koń
